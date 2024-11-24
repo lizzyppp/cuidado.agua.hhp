@@ -1,0 +1,138 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+    }
+
+    header {
+        background-color: #0288d1;
+        color: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #0288d1;
+        padding: 10px;
+    }
+
+    .menu a {
+        color: white;
+        text-decoration: none;
+        margin: 5px 0;
+    }
+
+    .menu-toggle {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .main-title {
+        text-align: center;
+        font-size: 48px; /* Tamaño del título principal aumentado */
+        font-weight: bold;
+        color: #01579b;
+        margin: 30px 0; /* Más espacio arriba y abajo */
+        background-color: #e3f2fd;
+        padding: 30px; /* Espacio interno aumentado */
+        border: 3px solid #0288d1; /* Borde más visible */
+        border-radius: 12px;
+        max-width: 1400px; /* Ancho máximo para evitar que se extienda demasiado */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    section h2 {
+        color: #01579b;
+        font-size: 28px; /* Aumentar ligeramente el tamaño de los subtítulos */
+        margin-bottom: 10px;
+    }
+
+    section img {
+        width: 200%; /* Ajustar al contenedor */
+        max-width: 800px; /* Ancho máximo para evitar que sean muy grandes */
+        height: auto; /* Mantener proporción */
+        border-radius: 8px;
+        display: block;
+        margin: 50px auto; /* Centrar imágenes y agregar espacio */
+    }
+
+    section p {
+        line-height: 1.6;
+        font-size: 16px; /* Tamaño de texto cómodo para lectura */
+        margin-bottom: 20px;
+    }
+
+    footer {
+        background-color: #01579b;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .comments-section textarea {
+        width: 100%;
+        height: 100px;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+
+    .comments-section button {
+        background-color: #0288d1;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .comments-section div {
+        margin-top: 20px;
+    }
+</style>
+
+
+
+ <style>
+        
+        iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+        }
+    </style>
+
+/* Contenedor del video */
+.video-container {
+    text-align: center; /* Centra el contenido */
+    margin: 60px 0; /* Margen arriba y abajo */
+}
+
+/* Estilo para el iframe del video */
+.video-container iframe {
+    width: 50%;  /* El iframe ocupará todo el ancho del contenedor */
+    height: 80;     /* Ajusta la altura de forma proporcional */
+    border-radius: 20px; /* Bordes redondeados */
+    margin: 0 auto;   /* Centrado automático */
+    display: block;   /* Asegura que el iframe se comporta como un bloque */
+}
